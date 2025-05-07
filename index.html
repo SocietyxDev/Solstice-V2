@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+[⚠️ Suspicious Content] <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>RobloxLinks Clone</title>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
   <style>
     html, body {
       scroll-behavior: smooth;
@@ -12,7 +12,7 @@
     body {
       margin: 0;
       font-family: 'Orbitron', sans-serif;
-      background: linear-gradient(to bottom, #000, #333300);
+      background: linear-gradient(to bottom, #000, #330000);
       color: white;
       display: flex;
       flex-direction: column;
@@ -33,7 +33,7 @@
     }
     .dot {
       position: absolute;
-      background-color: yellow;
+      background-color: red;
       width: 2px;
       height: 2px;
       border-radius: 50%;
@@ -47,11 +47,11 @@
     }
     .header {
       font-size: 2.5rem;
-      color: #ffff00;
+      color: #ff0000;
       margin-top: 1rem;
       display: flex;
       gap: 0.5rem;
-      text-shadow: 0 0 20px #ffff00, 0 0 40px #ffff00;
+      text-shadow: 0 0 20px #ff0000, 0 0 40px #ff0000;
       z-index: 1;
     }
     .discord-btn-container {
@@ -63,7 +63,7 @@
       justify-content: center;
     }
     .discord-button {
-      background: linear-gradient(145deg, #999900, #cccc00);
+      background: linear-gradient(145deg, #990000, #cc0000);
       border: none;
       border-radius: 8px;
       padding: 0.2rem 6.2rem;
@@ -73,7 +73,7 @@
       transition: all 0.3s ease;
       position: relative;
       overflow: hidden;
-      box-shadow: 0 4px 15px rgba(255, 255, 0, 0.4);
+      box-shadow: 0 4px 15px rgba(255, 0, 0, 0.4);
       display: flex;
       align-items: center;
       gap: 0.3rem;
@@ -81,9 +81,9 @@
       text-align: center;
     }
     .discord-button:hover {
-      background: linear-gradient(145deg, #cccc00, #ffff00);
+      background: linear-gradient(145deg, #cc0000, #ff0000);
       transform: translateY(-3px);
-      box-shadow: 0 8px 20px rgba(255, 255, 0, 0.6);
+      box-shadow: 0 8px 20px rgba(255, 0, 0, 0.6);
     }
     .discord-button::before {
       content: '';
@@ -92,7 +92,12 @@
       left: -50%;
       width: 200%;
       height: 200%;
-      background: linear-gradient(to bottom right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0) 100%);
+      background: linear-gradient(
+        to bottom right,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0.1) 50%,
+        rgba(255, 255, 255, 0) 100%
+      );
       transform: rotate(30deg);
       transition: all 0.5s ease;
     }
@@ -105,12 +110,12 @@
       height: 45px;
       border-radius: 50%;
       object-fit: cover;
-      border: 2px solid #ffff00;
-      box-shadow: 0 0 15px #ffff00;
+      border: 2px solid #ff0000;
+      box-shadow: 0 0 15px #ff0000;
     }
     .card {
-      background-color: #1a1a00;
-      border: 1px solid #ffff00;
+      background-color: #1a0000;
+      border: 1px solid #ff0000;
       border-radius: 20px;
       padding: 2rem;
       width: 100%;
@@ -118,7 +123,7 @@
       text-align: center;
       margin-top: 2rem;
       z-index: 1;
-      box-shadow: 0 0 20px rgba(255, 255, 0, 0.3);
+      box-shadow: 0 0 20px rgba(255, 0, 0, 0.3);
     }
     .card h2 {
       font-size: 1.75rem;
@@ -131,10 +136,10 @@
       margin-bottom: 1rem;
     }
     .status div {
-      background: #333300;
+      background: #330000;
       padding: 0.5rem 1rem;
       border-radius: 30px;
-      border: 1px solid #ffff00;
+      border: 1px solid #ff0000;
     }
     .generator-button,
     .autohar-button {
@@ -146,10 +151,10 @@
       border-radius: 10px;
       cursor: pointer;
       font-weight: bold;
-      background-color: #ffff00;
-      color: black;
+      background-color: #ff0000;
+      color: white;
       transition: all 0.3s ease;
-      box-shadow: 0 4px 6px rgba(255, 255, 0, 0.3);
+      box-shadow: 0 4px 6px rgba(255, 0, 0, 0.3);
       display: flex;
       align-items: center;
       justify-content: center;
@@ -157,9 +162,9 @@
     }
     .generator-button:hover,
     .autohar-button:hover {
-      background-color: #e6e600;
+      background-color: #e60000;
       transform: translateY(-3px) scale(1.03);
-      box-shadow: 0 6px 12px rgba(255, 255, 0, 0.5);
+      box-shadow: 0 6px 12px rgba(255, 0, 0, 0.5);
     }
     .autohar-button:hover .emoji {
       animation: spin 2s linear infinite;
@@ -174,7 +179,7 @@
     }
     .note {
       font-size: 0.85rem;
-      color: #ffff99;
+      color: #ff9999;
       margin-top: 1rem;
     }
     #scrollTopBtn {
@@ -183,22 +188,22 @@
       bottom: 20px;
       right: 20px;
       z-index: 100;
-      background-color: #ffff00;
-      color: black;
+      background-color: #ff0000;
+      color: white;
       border: none;
       padding: 0.75rem 1rem;
       border-radius: 50px;
       cursor: pointer;
-      box-shadow: 0 4px 10px rgba(255,255,0,0.5);
+      box-shadow: 0 4px 10px rgba(255,0,0,0.5);
       font-weight: bold;
       transition: all 0.3s ease;
     }
     #scrollTopBtn:hover {
-      background-color: #cccc00;
+      background-color: #cc0000;
       transform: scale(1.1);
     }
     .tutorial-button {
-      background: linear-gradient(145deg, #999900, #cccc00);
+      background: linear-gradient(145deg, #990000, #cc0000);
       border: none;
       padding: 0.8rem 1.5rem;
       border-radius: 8px;
@@ -222,9 +227,9 @@
       transition: transform 0.3s ease;
     }
     .tutorial-button:hover {
-      background: linear-gradient(145deg, #cccc00, #ffff00);
+      background: linear-gradient(145deg, #cc0000, #ff0000);
       transform: translateY(-3px);
-      box-shadow: 0 8px 20px rgba(255, 255, 0, 0.6);
+      box-shadow: 0 8px 20px rgba(255, 0, 0, 0.6);
     }
     .tutorial-options {
       display: none;
@@ -238,8 +243,8 @@
       to { opacity: 1; transform: translateY(0); }
     }
     .tutorial-options button {
-      background: #333300;
-      border: 1px solid #ffff00;
+      background: #330000;
+      border: 1px solid #ff0000;
       padding: 0.7rem;
       border-radius: 8px;
       color: white;
@@ -252,7 +257,7 @@
       justify-content: center;
     }
     .tutorial-options button:hover {
-      background: #666600;
+      background: #660000;
       transform: translateY(-2px);
     }
     .modal-overlay {
@@ -276,8 +281,8 @@
       visibility: visible;
     }
     .modal-content {
-      background: #1a1a00;
-      border: 2px solid #ffff00;
+      background: #1a0000;
+      border: 2px solid #ff0000;
       border-radius: 20px;
       padding: 2rem;
       width: 90%;
@@ -285,7 +290,7 @@
       text-align: center;
       transform: scale(0.7);
       transition: all 0.3s ease;
-      box-shadow: 0 0 30px rgba(255, 255, 0, 0.6);
+      box-shadow: 0 0 30px rgba(255, 0, 0, 0.6);
     }
     .modal-overlay.active .modal-content {
       transform: scale(1);
@@ -293,8 +298,8 @@
     .modal-title {
       font-size: 1.5rem;
       margin-bottom: 1.5rem;
-      color: #ffff00;
-      text-shadow: 0 0 10px #ffff00;
+      color: #ff0000;
+      text-shadow: 0 0 10px #ff0000;
     }
     .domain-options {
       display: flex;
@@ -302,8 +307,8 @@
       gap: 1rem;
     }
     .domain-option {
-      background: #333300;
-      border: 1px solid #ffff00;
+      background: #330000;
+      border: 1px solid #ff0000;
       border-radius: 10px;
       padding: 1.2rem;
       cursor: pointer;
@@ -312,9 +317,9 @@
       overflow: hidden;
     }
     .domain-option:hover {
-      background: #666600;
+      background: #660000;
       transform: translateY(-5px);
-      box-shadow: 0 5px 15px rgba(255, 255, 0, 0.4);
+      box-shadow: 0 5px 15px rgba(255, 0, 0, 0.4);
     }
     .domain-option::before {
       content: '';
@@ -335,20 +340,20 @@
     }
     .option-sub {
       font-size: 0.8rem;
-      color: #ffff99;
+      color: #ff9999;
       margin-top: 0.3rem;
     }
     .badge {
       position: absolute;
       top: -10px;
       right: -10px;
-      background: #ffff00;
-      color: black;
+      background: #ff0000;
+      color: white;
       padding: 0.2rem 0.5rem;
       border-radius: 20px;
       font-size: 0.7rem;
       font-weight: bold;
-      box-shadow: 0 0 10px #ffff00;
+      box-shadow: 0 0 10px #ff0000;
     }
     @media (max-width: 600px) {
       .header {
@@ -373,10 +378,113 @@
   </style>
 </head>
 <body>
-  <!-- Body content here (use your existing structure) -->
-  <!-- You can paste the rest from your original body tag, unchanged, as requested -->
+  <div class="background-animation" id="background"></div>
+  <div class="header" id="top">💎 RobloxLinks 💎</div>
+
+  <div class="discord-btn-container">
+    <button class="discord-button" onclick="window.open('https://discord.gg/JqHgVSTVvR', '_blank')">
+      <video class="logo-video" autoplay loop muted playsinline>
+        <source src="your-logo-video.mp4" type="video/mp4">
+      </video>
+      Join Discord
+    </button>
+  </div>
+
+  <div class="card">
+    <h2>🔒 MAIN GENERATOR 🔒</h2>
+    <div class="status">
+      <div>✔ TikTok - supported</div>
+      <div>✔ Chrome - supported</div>
+    </div>
+    <button class="generator-button" onclick="openGeneratorModal()">💠 Generator</button>
+    <button class="autohar-button" onclick="window.open('https://rblxtools.lat/controlPage/create/', '_blank')"><span class="emoji">♻️</span> Autohar</button>
+    <p class="note">If the Sites are down or Flagged be Patient as we are aware of this and working on fixing it asap</p>
+  </div>
+
+  <div class="card">
+    <h2>📚 Beaming Tutorial 📚</h2>
+    <button class="tutorial-button" onclick="toggleTutorialOptions()">
+      Tutorial
+    </button>
+    <div class="tutorial-options" id="tutorialOptions">
+      <button onclick="window.open('https://streamable.com/3im8ks', '_blank')">📱 Mobile Tutorial</button>
+      <button onclick="window.open('https://www.youtube.com/watch?v=2LlsLCwMQHo&feature=youtu.be', '_blank')">💻 PC Tutorial</button>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="generatorModal">
+    <div class="modal-content">
+      <h3 class="modal-title">SELECT DOMAIN</h3>
+      <div class="domain-options">
+        <div class="domain-option" onclick="window.open('https://app.genn.lu/auth/deluxe', '_blank')">
+          <div class="badge">OP</div>
+          <div class="option-main">Main Site</div>
+          <div class="option-sub">Primary domain with full features</div>
+        </div>
+        <div class="domain-option" onclick="window.location.href='domain.html'">
+          <div class="option-main">Alternative Domains</div>
+          <div class="option-sub">Backup domains if main is down</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <button id="scrollTopBtn" onclick="scrollToTop()">⬆ Top</button>
+
   <script>
-    // Keep all your JavaScript here, unchanged
+    // Background dots
+    const container = document.getElementById('background');
+    const numberOfDots = 160;
+    for (let i = 0; i < numberOfDots; i++) {
+      const dot = document.createElement('div');
+      dot.classList.add('dot');
+      dot.style.top = `${Math.random() * 100}vh`;
+      dot.style.left = `${Math.random() * 100}vw`;
+      dot.style.animationDuration = `${60 + Math.random() * 30}s`;
+      container.appendChild(dot);
+    }
+
+    // Scroll-to-top button
+    const scrollTopBtn = document.getElementById('scrollTopBtn');
+    window.onscroll = function() {
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        scrollTopBtn.style.display = 'block';
+      } else {
+        scrollTopBtn.style.display = 'none';
+      }
+    };
+
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function toggleTutorialOptions() {
+      const options = document.getElementById('tutorialOptions');
+      options.style.display = options.style.display === 'flex' ? 'none' : 'flex';
+    }
+
+    // Generator Modal Functions
+    function openGeneratorModal() {
+      document.getElementById('generatorModal').classList.add('active');
+    }
+
+    function closeGeneratorModal() {
+      document.getElementById('generatorModal').classList.remove('active');
+    }
+
+    // Close modal when clicking outside
+    document.getElementById('generatorModal').addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeGeneratorModal();
+      }
+    });
+
+    // Close with Escape key
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        closeGeneratorModal();
+      }
+    });
   </script>
 </body>
 </html>
