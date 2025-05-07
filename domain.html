@@ -13,7 +13,7 @@
     }
     html, body {
       font-family: 'Montserrat', sans-serif;
-      background: linear-gradient(135deg, #000a00, #000500);
+      background: linear-gradient(135deg, #1a0a00, #140800);
       color: white;
       min-height: 100vh;
       overflow-x: hidden;
@@ -51,16 +51,16 @@
       z-index: 0;
       pointer-events: none;
       overflow: hidden;
-      background: radial-gradient(circle at 20% 30%, rgba(0,80,40,0.15) 0%, transparent 50%);
+      background: radial-gradient(circle at 20% 30%, rgba(80,60,0,0.15) 0%, transparent 50%);
     }
     .dot {
       position: absolute;
-      background: rgba(0, 255, 150, 0.7);
+      background: rgba(255, 200, 0, 0.7);
       width: 2px;
       height: 2px;
       border-radius: 50%;
       animation: float 60s linear infinite;
-      filter: drop-shadow(0 0 8px #00ffaa);
+      filter: drop-shadow(0 0 8px #ffcc00);
     }
     .luxury-dot {
       position: absolute;
@@ -84,13 +84,13 @@
     .header {
       font-size: 2.8rem;
       font-family: 'Orbitron', sans-serif;
-      background: linear-gradient(90deg, #00ffaa, #00dd88, #00ffaa);
+      background: linear-gradient(90deg, #ffcc00, #ffaa00, #ffcc00);
       -webkit-background-clip: text;
       background-clip: text;
       color: transparent;
       text-align: center;
       margin-bottom: 2rem;
-      text-shadow: 0 0 15px rgba(0,255,170,0.3);
+      text-shadow: 0 0 15px rgba(255,200,0,0.3);
       position: relative;
       z-index: 1;
       letter-spacing: 1px;
@@ -100,19 +100,19 @@
       display: block;
       width: 300px;
       height: 3px;
-      background: linear-gradient(90deg, transparent, #00ffaa, transparent);
+      background: linear-gradient(90deg, transparent, #ffcc00, transparent);
       margin: 15px auto;
-      box-shadow: 0 0 10px #00ffaa;
+      box-shadow: 0 0 10px #ffcc00;
     }
     /* ===== Luxury Cards ===== */
     .site-card {
-      background: rgba(0, 20, 10, 0.25);
-      border: 1px solid rgba(0, 255, 150, 0.3);
+      background: rgba(20, 15, 0, 0.25);
+      border: 1px solid rgba(255, 200, 0, 0.3);
       border-radius: 16px;
       padding: 1.8rem;
       margin-bottom: 2rem;
       backdrop-filter: blur(12px);
-      box-shadow: 0 8px 32px rgba(0, 100, 50, 0.2);
+      box-shadow: 0 8px 32px rgba(100, 80, 0, 0.2);
       transition: all 0.4s ease;
       position: relative;
       overflow: hidden;
@@ -120,7 +120,7 @@
     }
     .site-card:hover {
       transform: translateY(-8px);
-      box-shadow: 0 12px 40px rgba(0, 255, 150, 0.3);
+      box-shadow: 0 12px 40px rgba(255, 200, 0, 0.3);
     }
     .site-card::before {
       content: "";
@@ -129,7 +129,7 @@
       left: -2px;
       right: -2px;
       bottom: -2px;
-      background: linear-gradient(45deg, #00ffaa, #00cc88, #00ffaa);
+      background: linear-gradient(45deg, #ffcc00, #ffaa00, #ffcc00);
       z-index: -2;
       border-radius: 18px;
       opacity: 0;
@@ -145,25 +145,25 @@
       left: 0;
       right: 0;
       bottom: 0;
-      background: linear-gradient(135deg, rgba(0,255,150,0.05), rgba(0,200,100,0.03));
+      background: linear-gradient(135deg, rgba(255,200,0,0.05), rgba(200,150,0,0.03));
       z-index: -1;
       border-radius: 15px;
     }
     .site-card h3 {
       margin: 0 0 1.5rem;
-      color: #ccffee;
+      color: #ffeecc;
       font-size: 1.6rem;
       text-align: center;
       font-weight: 700;
       letter-spacing: 1px;
-      text-shadow: 0 0 10px rgba(0,255,170,0.3);
+      text-shadow: 0 0 10px rgba(255,200,0,0.3);
     }
     .status {
       display: flex;
       justify-content: space-between;
       margin: 1.2rem 0;
       padding: 0.8rem 0;
-      border-bottom: 1px solid rgba(0, 255, 150, 0.25);
+      border-bottom: 1px solid rgba(255, 200, 0, 0.25);
     }
     .status span {
       display: flex;
@@ -172,8 +172,8 @@
       font-size: 1.1rem;
     }
     .check {
-      color: #00ff99;
-      text-shadow: 0 0 10px #00ff99;
+      color: #ffcc00;
+      text-shadow: 0 0 10px #ffcc00;
       font-weight: 600;
     }
     .cross {
@@ -184,7 +184,7 @@
     .generator-btn {
       width: 100%;
       padding: 1rem;
-      background: linear-gradient(45deg, #008855, #00aa66);
+      background: linear-gradient(45deg, #aa8800, #ccaa00);
       border: none;
       color: white;
       font-weight: bold;
@@ -193,16 +193,16 @@
       cursor: pointer;
       transition: all 0.4s ease;
       margin-top: 1.5rem;
-      box-shadow: 0 6px 20px rgba(0, 200, 100, 0.3);
+      box-shadow: 0 6px 20px rgba(200, 150, 0, 0.3);
       position: relative;
       overflow: hidden;
       z-index: 1;
       letter-spacing: 0.5px;
     }
     .generator-btn:hover {
-      background: linear-gradient(45deg, #00aa66, #00cc77);
+      background: linear-gradient(45deg, #ccaa00, #ffcc00);
       transform: translateY(-3px);
-      box-shadow: 0 8px 25px rgba(0, 255, 150, 0.5);
+      box-shadow: 0 8px 25px rgba(255, 200, 0, 0.5);
     }
     .generator-btn::before {
       content: "";
@@ -225,19 +225,19 @@
       gap: 0.8rem;
     }
     .hit-slot {
-      background: rgba(0, 30, 15, 0.4);
+      background: rgba(30, 20, 0, 0.4);
       border-radius: 12px;
       padding: 1rem;
       margin-bottom: 0.8rem;
-      border: 1px solid rgba(0, 255, 150, 0.25);
+      border: 1px solid rgba(255, 200, 0, 0.25);
       transition: all 0.4s ease;
       position: relative;
       overflow: hidden;
     }
     .hit-slot:hover {
-      background: rgba(0, 50, 25, 0.6);
+      background: rgba(50, 30, 0, 0.6);
       transform: translateX(8px);
-      box-shadow: 4px 0 15px rgba(0, 255, 150, 0.2);
+      box-shadow: 4px 0 15px rgba(255, 200, 0, 0.2);
     }
     .hit-slot::after {
       content: "";
@@ -246,7 +246,7 @@
       left: 10%;
       width: 80%;
       height: 1px;
-      background: linear-gradient(90deg, transparent, rgba(0, 255, 150, 0.4), transparent);
+      background: linear-gradient(90deg, transparent, rgba(255, 200, 0, 0.4), transparent);
     }
     .hit-slot div {
       display: flex;
@@ -257,19 +257,19 @@
       width: 42px;
       height: 42px;
       border-radius: 50%;
-      border: 2px solid rgba(0, 255, 150, 0.6);
-      box-shadow: 0 0 10px rgba(0, 255, 150, 0.3);
+      border: 2px solid rgba(255, 200, 0, 0.6);
+      box-shadow: 0 0 10px rgba(255, 200, 0, 0.3);
     }
     .hit-slot span:first-of-type {
       flex: 1;
       font-weight: 600;
       letter-spacing: 0.5px;
-      color: #ccffee;
+      color: #ffeecc;
     }
     .hit-slot span:last-of-type {
-      color: #99ffcc;
+      color: #ffdd99;
       font-weight: bold;
-      text-shadow: 0 0 8px rgba(0, 255, 150, 0.3);
+      text-shadow: 0 0 8px rgba(255, 200, 0, 0.3);
     }
     /* ===== Luxury Leaderboard ===== */
     .leaderboard-entry {
@@ -278,15 +278,15 @@
       justify-content: space-between;
       padding: 1rem;
       margin-bottom: 0.8rem;
-      background: rgba(0, 30, 15, 0.4);
+      background: rgba(30, 20, 0, 0.4);
       border-radius: 12px;
-      border: 1px solid rgba(0, 255, 150, 0.25);
+      border: 1px solid rgba(255, 200, 0, 0.25);
       transition: all 0.4s ease;
       position: relative;
       overflow: hidden;
     }
     .leaderboard-entry:hover {
-      background: rgba(0, 50, 25, 0.6);
+      background: rgba(50, 30, 0, 0.6);
       transform: translateX(5px);
     }
     .leaderboard-entry::after {
@@ -296,26 +296,26 @@
       left: 10%;
       width: 80%;
       height: 1px;
-      background: linear-gradient(90deg, transparent, rgba(0, 255, 150, 0.3), transparent);
+      background: linear-gradient(90deg, transparent, rgba(255, 200, 0, 0.3), transparent);
     }
     .leaderboard-entry img {
       width: 45px;
       height: 45px;
       border-radius: 50%;
-      border: 2px solid #00cc88;
-      box-shadow: 0 0 10px rgba(0, 255, 150, 0.3);
+      border: 2px solid #ffaa00;
+      box-shadow: 0 0 10px rgba(255, 200, 0, 0.3);
     }
     .leaderboard-entry strong {
       flex: 1;
       margin-left: 1.2rem;
       font-weight: 600;
       letter-spacing: 0.5px;
-      color: #ccffee;
+      color: #ffeecc;
     }
     .leaderboard-score {
-      color: #99ffcc;
+      color: #ffdd99;
       font-weight: bold;
-      text-shadow: 0 0 8px rgba(0, 255, 150, 0.3);
+      text-shadow: 0 0 8px rgba(255, 200, 0, 0.3);
     }
     /* ===== Luxury Animations ===== */
     .fade-out {
@@ -361,7 +361,7 @@
       pointer-events: all;
     }
     .popup-content {
-      background: linear-gradient(135deg, #001a0a, #002010);
+      background: linear-gradient(135deg, #1a0a00, #201000);
       border: 2px solid #ff3333;
       border-radius: 20px;
       padding: 2.5rem;
@@ -537,7 +537,7 @@
     const container = document.getElementById('background');
     const numberOfDots = 250;
     for (let i = 0; i < numberOfDots; i++) {
-      // Green dots
+      // Yellow dots
       const dot = document.createElement('div');
       dot.classList.add('dot');
       dot.style.top = `${Math.random() * 100}vh`;
